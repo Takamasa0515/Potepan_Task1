@@ -41,8 +41,10 @@ body {
     }
 }
 
-.HeaderLogo:hover {
-    opacity: 0.8;
+@media screen and (min-width: 768) {
+    .HeaderLogo:hover {
+        opacity: 0.8;
+    }
 }
 
 .HeaderLogo_img {
@@ -168,7 +170,7 @@ main {
 
 @media screen and (max-width: 1080px) {
     main {
-        padding-top: 52px;
+        padding-top: 60px;
     }
 }
 
@@ -301,8 +303,10 @@ img {
     justify-content: center;
 }
 
-.FirstViewContent_buttons a:hover {
-    opacity: 0.8;
+@media screen and (min-width: 768px) {
+    .FirstViewContent_buttons a:hover {
+        opacity: 0.8;
+    }
 }
 
 .FirstViewContent_buttons a:first-of-type {
@@ -456,10 +460,11 @@ img {
     width: 100%;
 }
 
-.About_button a:hover {
-    opacity: 0.8;
+@media screen and (min-width: 768px) {
+    .About_button a:hover {
+        opacity: 0.8;
+    }
 }
-
 .About_button a span:first-child {
     font-family: 'Lato', sans-serif;
     font-size: 24px;
