@@ -20,11 +20,17 @@ body {
     padding-bottom: 20px;
 }
 
-@media screen and (max-width:767.9px) {
+@media screen and (max-width: 767px) {
     .Header {
-        padding-top: 15px;
+        padding-top:15px;
         padding-bottom: 15px;
     }
+}
+
+@media screen and (max-width: 1080px) {
+     .Header {
+         background-color: #fff;
+     }
 }
 
 .HeaderContainer {
@@ -34,17 +40,19 @@ body {
     position: relative; 
 }
 
-@media screen and (max-width: 767.9px) {
+@media screen and (max-width: 767px) {
     .HeaderContainer {
         max-width: 100%;
         margin: 0 20px;
     }
+    
 }
 
 @media screen and (min-width: 768) {
     .HeaderLogo:hover {
         opacity: 0.8;
     }
+    
 }
 
 .HeaderLogo_img {
@@ -53,11 +61,11 @@ body {
     width: auto;
 }
 
-@media screen and (max-width: 767.9px) {
-    .HeaderLogo_img--pc {
-    display:none;
-    }
-}
+ @media screen and (max-width: 767px) {
+     .HeaderLogo_img--pc {
+         display:none;
+     }
+ }
 
 .HeaderLogo_img--sp {
     display:none;
@@ -65,25 +73,25 @@ body {
     width: auto;
 }
 
-@media screen and (max-width:767.9px) {
-    .HeaderLogo_img--sp {
-        display: block;
-    }
-}
+ @media screen and (max-width:767px) {
+     .HeaderLogo_img--sp {
+         display: block;
+     }
+ }
 
 .HeaderNavHamburger {
     display: none;
 }
 
-@media screen and (max-width:1080px) {
-    .HeaderNavHamburger {
-        cursor: pointer;
-        display: block;
-        width: 30px;
-        height: 21px;
-        position: relative;
-    }
-}
+ @media screen and (max-width:1080px) {
+     .HeaderNavHamburger {
+         cursor: pointer;
+         display: block;
+         width: 30px;
+         height: 21px;
+         position: relative;
+     }
+ }
 
     .HeaderNavHamburger_line {
         display: block;
@@ -117,11 +125,11 @@ a {
     display: flex;
     }
 
-@media screen and (max-width: 1080px) {
-    .HeaderNav {
-    display: none;
-    }
-}
+ @media screen and (max-width: 1080px) {
+     .HeaderNav {
+         display: none;
+     }
+ }
     
 .HeaderNavItem {
     margin-right: 45px;
@@ -168,11 +176,11 @@ main {
     display: block;
 }
 
-@media screen and (max-width: 1080px) {
-    main {
-        padding-top: 60px;
-    }
-}
+ @media screen and (max-width: 1080px) {
+     main {
+         padding-top: 52px;
+     }
+ }
 
 .FirstView {
     background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg) ;
@@ -182,25 +190,25 @@ main {
     padding-bottom: 28px;
 }
 
-@media screen and (max-width: 767.9px) {
-    .FirstView {
-        background-image: none;
-        padding-top: 0px;
-        padding-bottom: 35px;
-    }
-}
+ @media screen and (max-width: 767px) {
+     .FirstView {
+         background-image: none;
+         padding-top: 0;
+         padding-bottom: 35px;
+     }
+ }
 
 .FirstView_img {
     display: none;
     width: 100%;
 }
 
-@media screen and (max-width: 767.9px) {
-    .FirstView_img {
-    display:block;
-    width: 100%;
-    }
-}
+ @media screen and (max-width: 767px) {
+     .FirstView_img {
+         display:block;
+         width: 100%;
+     }
+ }
 
 .FirstViewContainer {
     max-width: 1140px;
@@ -211,26 +219,26 @@ main {
     position: relative;
 }
 
-@media screen and (max-width: 767.9px) {
-    .FirstViewContainer {
-        margin-top: -45vw;
-        max-width: none;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
+ @media screen and (max-width: 767px) {
+     .FirstViewContainer {
+         margin-top: -45vw;
+         max-width: none;
+         padding-left: 20px;
+         padding-right: 20px;
+     }
+ }
 
 .FirstViewContent {
     width: fit-content;
     margin-bottom: 70px;
 }
 
-@media screen and (max-width: 767.9px) {
-    .FirstViewContent {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-}
+ @media screen and (max-width: 767px) {
+     .FirstViewContent {
+         width: 100%;
+         margin-bottom: 20px;
+     }
+ }
 
 .FirstViewContent_title {
     color: #000;
@@ -242,12 +250,12 @@ main {
     margin-bottom: 15px;
 }
 
-@media screen and (max-width: 767.9px) {
-    .FirstViewContent_title {
-        font-size: 25px;
-        line-height: 36px;
-    }
-}
+@media screen and (max-width: 767px) {
+     .FirstViewContent_title {
+         font-size: 25px;
+         line-height: 36px;
+     }
+ }
 
 img {
     vertical-align: middle;
@@ -257,30 +265,30 @@ img {
     margin-bottom: 25px;
 }
 
-@media screen and (max-width: 767.9px) {
-    .FirstViewContent_icon {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        margin-bottom: 30px;
-    }
-}
+ @media screen and (max-width: 767px) {
+     .FirstViewContent_icon {
+         display: flex;
+         justify-content: space-between;
+         width: 100%;
+         margin-bottom: 30px;
+     }
+ }
 
 .FirstViewContent_icon img {
     margin-right: 8px;
 }
 
-@media screen and (max-width: 767.9px) {
-    .FirstViewContent_icon img {
-        width: 27.5%;
-    }
-}
+ @media screen and (max-width: 767px) {
+     .FirstViewContent_icon img {
+         width: 27.5%;
+     }
+ }
 
-@media screen and (max-width: 767.9px) {
-    .FirstViewContent_icon img:last-of-type {
-        margin-right: 0px;
-    }
-}
+ @media screen and (max-width: 767px) {
+     .FirstViewContent_icon img:last-of-type {
+         margin-right: 0px;
+     }
+ }
 
 .FirstViewContent_icon img:nth-of-type(2) {
     width: 40%;
@@ -303,11 +311,11 @@ img {
     justify-content: center;
 }
 
-@media screen and (min-width: 768px) {
-    .FirstViewContent_buttons a:hover {
-        opacity: 0.8;
-    }
-}
+ @media screen and (min-width: 768px) {
+     .FirstViewContent_buttons a:hover {
+         opacity: 0.8;
+     }
+ }
 
 .FirstViewContent_buttons a:first-of-type {
     width: 306px;
@@ -322,15 +330,15 @@ img {
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 767.9px) {
-    .FirstViewContent_buttons a:first-of-type {
-        margin-right: 0px;
-        font-size: 14px;
-        width: 100%;
-    }
-}
+ @media screen and (max-width: 767px) {
+     .FirstViewContent_buttons a:first-of-type {
+         margin-right: 0px;
+         font-size: 14px;
+         width: 100%;
+     }
+ }
 
-@media screen and (max-width: 767.9px) {
+@media screen and (max-width: 767px) {
     .FirstViewContent_buttons a:last-of-type {
         display: none;
     }
@@ -350,11 +358,11 @@ img {
     padding: 45px 0;
 }
 
-@media screen and (max-width: 767.9px) {
-    .AboutWrapper {
-        padding: 30px 0;
-    }
-}
+ @media screen and (max-width: 767px) {
+     .AboutWrapper {
+         padding: 30px 0;
+     }
+ }
 
 .About {
     max-width: 1140px;
@@ -368,19 +376,19 @@ img {
     justify-content: space-between;
 }
 
-@media screen and (max-width: 1024px) {
-    .About {
-        flex-direction: column;
-    }
-}
+ @media screen and (max-width: 1024px) {
+     .About {
+         flex-direction: column;
+     }
+ }
 
-@media screen and (max-width: 767.9px) {
-    .About {
-        max-width: none;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
+ @media screen and (max-width: 767px) {
+     .About {
+         max-width: none;
+         padding-left: 20px;
+         padding-right: 20px;
+     }
+ }
 
 .About_title {
     display: flex;
@@ -389,12 +397,12 @@ img {
     width: 53%;
 }
 
-@media screen and (max-width: 1024px) {
-    .About_title {
-        margin-bottom: 0;
-        width: 100%;
-    }
-}
+ @media screen and (max-width: 1024px) {
+     .About_title {
+         margin-bottom: 0;
+         width: 100%;
+     }
+ } 
 
 .About_title h2 {
     font-size: 40px;
@@ -424,25 +432,25 @@ img {
     text-align: left;
 }
 
-@media screen and (max-width: 767.9px) {
-    .About_title h2 {
-        font-size: 30px;
-        text-align: center;
-        line-height: 1.2;
-    }
-}
+ @media screen and (max-width: 767px) {
+     .About_title h2 {
+         font-size: 30px;
+         text-align: center;
+         line-height: 1.2;
+     }
+ }
 
-@media screen and (max-width: 767.9px) {
-    .About_title h2>span {
-        font-size: 33px;
-    }
-}
+ @media screen and (max-width: 767px) {
+     .About_title h2>span {
+         font-size: 33px;
+     }
+ }
 
-@media screen and (max-width: 767.9px) {
-    .About_title h2>br {
-        display: block;
-    }
-}
+ @media screen and (max-width: 767px) {
+     .About_title h2>br {
+         display: block;
+     }
+ }
 
 .About_button {
     width: 250px;
@@ -460,11 +468,11 @@ img {
     width: 100%;
 }
 
-@media screen and (min-width: 768px) {
-    .About_button a:hover {
-        opacity: 0.8;
-    }
-}
+ @media screen and (min-width: 768px) {
+     .About_button a:hover {
+         opacity: 0.8;
+     }
+ }
 .About_button a span:first-child {
     font-family: 'Lato', sans-serif;
     font-size: 24px;
@@ -477,8 +485,8 @@ img {
     line-height: 18px;
 }
 
-@media screen and (max-width: 767.9px) {
-    .About_button {
-        margin-top: 40px;
-    }
-}
+ @media screen and (max-width: 767px) {
+     .About_button {
+         margin-top: 40px;
+     }
+ }
